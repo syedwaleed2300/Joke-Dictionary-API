@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: silver;
+    width: 90%;
+    max-width: 750px; 
+    padding: 80px 50px;
+    border-radius: 40px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+
+
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box input {
+    padding: 13px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-bottom: 4px solid darkred;
+    font-size: 16px;
+
+}
+
+.search-box button {
+    padding: 15px 0;
+    width: 23%;
+    background-color: lightcoral;
+    border: none;
+    outline: none;
+    color: black;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.result {
+    position: relative;
+}
+
+.result h3 {
+    font-size: 30px;
+    color: darkgoldenrod;
+}
+
+.result .word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.result button {
+    background-color: transparent;
+    color: #ae9cff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.result .details {
+    display: flex;
+    gap: 10px;
+    color: black;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+
+.word-meaning {
+    color: black;
+}
+
+.word-example {
+    color: darkblue;
+    font-style: italic;
+    border-left: 5px solid red;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.error {
+    margin-top: 80px;
+    text-align: center;
+}
